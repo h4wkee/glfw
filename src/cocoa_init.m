@@ -65,7 +65,7 @@ static void changeToResourcesDirectory(void)
 
     CFRelease(resourcesURL);
 
-    chdir(resourcesPath);
+    //chdir(resourcesPath);
 }
 
 // Set up the menu bar (manually)
